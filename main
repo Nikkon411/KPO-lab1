@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main() {
+
+	int a, b;
+	int sgoreli = 0;
+	int vremya = 0;
+
+	cin >> a;
+	cin >> b;
+	while (a > 0) {
+		a = a - 1;
+		vremya = vremya + 1;
+		sgoreli = sgoreli + 1;
+		if (sgoreli % b == 0) {
+			a = a + 1;
+			sgoreli = 0;
+		}
+		
+	}
+	cout << vremya;
+
