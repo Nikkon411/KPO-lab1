@@ -1,2 +1,2 @@
 # KPO-lab1
-First project on Github
+First project on bdvberiv
